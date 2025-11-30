@@ -1,0 +1,48 @@
+project:
+  type: website
+  output-dir: docs
+
+execute: 
+  freeze: auto
+
+website:
+  title: "Coops & Co"
+  site-url: https://coopsandco.github.io
+  repo-url: https://github.com/coopsandco/coopsandco.github.io
+  # image: images/favicon.png
+  # favicon: images/favicon.png
+  # google-analytics:
+  #   tracking-id: ""
+  #   storage: cookies
+  #   anonymize-ip: true
+  navbar:
+    # logo: /images/lisa.jpg
+    # logo-alt: "A person with blue hair"
+    toggle-position: "right"
+    right:
+      - text: " "
+        icon: house-door-fill # https://icons.getbootstrap.com/
+        href: index.qmd
+      - text: "About"
+        href: about.qmd
+      - text: "Contact"
+        href: mailto:info@coopsanco.nl
+      - text: "Projects"
+        href: portfolio.qmd
+
+
+  page-footer:
+    background: primary
+    left: "© 2025 by Coops&Co"
+    right:
+      - icon: github
+        aria-label: GitHub
+        href: https://github.com/coopsandco
+
+format:
+  html:
+    theme: 
+      light: [flatly, www/light.scss]
+      dark: [darkly, www/dark.scss]
+    css: www/style.css
+    mainfont: Montserrat
