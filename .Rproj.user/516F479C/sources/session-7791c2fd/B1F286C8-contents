@@ -1,9 +1,0 @@
-lang: en
-engine: knitr
-
-execute:
-  freeze: auto
-
-profile:
-  group:
-    - [website, guide, cs, guidebook]

@@ -1,1 +1,8 @@
 *.html
+docs/
+.Rproj.user/*
+.quarto/
+
+/.quarto/
+
+**/*.quarto_ipynb
