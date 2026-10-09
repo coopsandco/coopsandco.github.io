@@ -2,6 +2,37 @@
   max-height: 2em;
 }
 
-.quarto-category {
-  background-color: #552B93;
+.linktree ul {
+  list-style-type: none
 }
+
+.linktree li {
+  width: 100%;
+  max-width: 30em;
+  border-radius: 0.5em;
+  border: 2px solid hotpink;
+  background-color: #2B4A67;
+  color: white;
+  text-align: center;
+  font-size: 150%;
+  margin-bottom: 0.5em;
+}
+
+.linktree li a, 
+.linktree li a:link, 
+.linktree li a:visited {
+  color: white; 
+  text-decoration: none;
+}
+
+.linktree li:hover {
+  background-color: white;
+}
+
+.linktree li:hover a, 
+.linktree li:hover a:link, 
+.linktree li:hover a:visited, 
+.linktree li:hover a:hover {
+  color: #2B4A67;
+}
+
